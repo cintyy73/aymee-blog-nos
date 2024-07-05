@@ -1,0 +1,108 @@
+/* styles.css */
+/* Reset básico de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0 20px; /* Margen lateral */
+}
+
+/* Estilos del contenedor */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del header */
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width:100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos del main */
+main {
+    padding: 20px;
+}
+
+/* Estilos de las secciones */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0;
+}
+
+section h3 {
+    color: #4CAF50;
+}
+
+section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Estilos de las imágenes */
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
